@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(241, 245, 253);
+    text-align: center;
+    margin: 35vh 80vh;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin-bottom: 3vh;
+    color: rgb(49, 113, 165);
+    font-weight: 700;
+}
+
+.container {
+    background-color: rgb(186, 233, 245);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.40) 0px 3px 8px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(49, 113, 165);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 4px;
+}
+
+input:hover {
+    border-radius: 10px;
+    padding: 10px;
+    border: none;
+    background-color: rgba(7, 97, 170, 0.637)
+}
+
+.oddoreven {
+    margin-top: 20px;
+    color: rgb(49, 113, 165);
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 4px;
+    color: white;
+    background-color: rgb(49, 113, 165);
+}
+
+.button:hover {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 4px;
+    background-color: rgba(7, 97, 170, 0.637)
+}
